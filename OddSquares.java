@@ -16,5 +16,6 @@ public static void main(String args[])
 		
 	l.stream().filter(odd -> odd%2!=0).map(odd -> odd*odd).forEach(System.out :: println);
 	System.out.println("Print to check in Jenkins Git Example Version 1.");
+	
 }
 }
